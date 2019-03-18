@@ -1,5 +1,6 @@
 ## 1. Dynamic Programming - dynamic_programming_search.py
 ###  # use self.future_dict
+- Dynamic Programing 으로 Search를 하겠다.
 ```
 def future(self, problem, state):
         if self.memory_use and state in self.future_dict:
@@ -10,8 +11,8 @@ def future(self, problem, state):
 ## 2. Joint_task - joint_task.py
 ### space 바와 모음이 없는 상태에서 space와 모음을 동시에 추가해주는 작업
 - pos , current_word = state[0], state[1]
-- 첫번 째 for문이 space 추가 구문
-- 두번 째 for문이 모음을 추가하는 구문
+- 첫번 째 for문이 space 추가 구문 -> word_segmentation.py
+- 두번 째 for문이 모음을 추가하는 구문 -> vowel_insertion.py
 
 ```
 def succ_and_cost(self, state):
