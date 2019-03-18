@@ -21,7 +21,15 @@ class JointSegmentationInsertionProblem(util.SearchProblem):
         return state[0] == len(self.query)
 
     def succ_and_cost(self, state):
-        raise NotImplementedError
+        pos, current_word = state
+        for i in range(pos + 1, len(self.query)+1):
+            vowel_removed_word = self.query[pos:i]
+            fills = self.possibleFills(vowel_removed_word)
+            for fill in fills:
+                next_state = i,fill
+                cost = self.bigramCost(current_word, fill)
+                yield fill, next_state, cost  # return action, state, cost
+    # raise NotImplementedError - 함수 지정했는데 함수안에 아무것도 없으면 실행시켜주는 구문
     # use "self.poosibleFills(vowel_removed_word)" instead of
     # "self.possibleFills(vowel_removed_word) | {vowel_removed_word}"
     #
