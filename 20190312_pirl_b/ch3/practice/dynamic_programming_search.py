@@ -36,7 +36,7 @@ class DynamicProgrammingSearch(util.SearchAlgorithm):
         actions, cost, num_visited = self.future(problem, problem.start_state())
         if self.verbose >= 1:
             print("numStatesVisited = {}".format(num_visited))
-            print("totalCost = {}".format(cost))
+            print("totalCost = {}".format(cost)) 
             print("actions = {}".format(actions))
         return tuple(actions), cost, num_visited
 
