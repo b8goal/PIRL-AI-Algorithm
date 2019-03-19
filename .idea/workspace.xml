@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395baefc-fea8-412a-b7aa-898e1c879cf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/20190312_pirl_b/ch5/practice/simple_game/ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/20190312_pirl_b/ch5/practice/simple_game/ai.py" afterDir="false" />
-    </list>
+    <list default="true" id="395baefc-fea8-412a-b7aa-898e1c879cf1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/20190312_pirl_b/ch5/practice/simple_game/ai.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -542,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20190312_pirl_b/ch5/practice/simple_game/ai.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
