@@ -20,14 +20,17 @@ class MinimaxAgent:
         # If player == agent (maximizing player)
         if game.get_player_from_state(state) == game.MAX_PLAYER:
             value = -game.INT_INF
-            for _X_ in _X_:
-                value = _X_  # use 'game.get_next_state'
+            for action in actions:
+                value = max(value, self.V(game.get_next_state(state,action)))  # use 'game.get_next_state'
+# use 'game.get_next_state'
+        # value = max(self.V(game,get_next_state(state,action)) for action in actions)
+        # use 'game.get_next_state'
 
         # If player == opponent (minimzing player)
         else:
             value = game.INT_INF
-            for _X_ in _X_:
-                value = _X_  # use 'game.get_next_state'
+            for action in actions:
+                value = min(value, self.V(game.get_next_state(state, action)))  # use 'game.get_next_state'
 
         return value
 
